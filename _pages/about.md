@@ -21,4 +21,4 @@ Although I hardly understand how to commit to a meaningful research direction, I
 
 Breaking news!
 ------
-1. July 2025, a journal article ["A User-centric Game for Balancing V2G Benefits with Battery Degradation of Electric Vehicles"](https://ieeexplore.ieee.org/document/11104074) accepted in *** IEEE Transactions on Transportation Electrification ***
+1. July 2025, a journal article ["A User-centric Game for Balancing V2G Benefits with Battery Degradation of Electric Vehicles"](https://ieeexplore.ieee.org/document/11104074) accepted in ***IEEE Transactions on Transportation Electrification***
