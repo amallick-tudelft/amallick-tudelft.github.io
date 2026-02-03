@@ -11,7 +11,7 @@ I occasionally conduct research in the broad area of sequential decision-making 
 Brief bio
 ======
 - PhD (2023- ), @ [Delft Center for Systems and Control](https://www.tudelft.nl/me/over/afdelingen/delft-center-for-systems-and-control), joint-advisors: [Peyman Mohajerin Esfahani](https://mohajerinesfahani.github.io/) and [Sergio Grammatico](https://sites.google.com/site/grammaticosergio/)
-- MS(by Research) (2021-2023) in electrical engineering, @ [IIT Kharagpur, India](https://www.iitkgp.ac.in/), joint-supervisors: [Ashish R. Hota](https://facweb.iitkgp.ac.in/~ahota/index.html) and [Prabodh Bajpai](https://home.iitk.ac.in/~pbajpai/), [Jalpaiguri Government Engineering College](https://jgec.ac.in/)
+- MS(by Research) (2021-2023) in electrical engineering, @ [IIT Kharagpur, India](https://www.iitkgp.ac.in/), joint-supervisors: [Ashish R. Hota](https://facweb.iitkgp.ac.in/~ahota/index.html) and [Prabodh Bajpai](https://home.iitk.ac.in/~pbajpai/)
 - B.Tech (2015-2019) in electrical engineering, @ [Jalpaiguri Government Engineering College](https://jgec.ac.in/)
   
 
