@@ -12,14 +12,12 @@ Brief bio
 ======
 I am fortunate to pursue a PhD at [Delft Center for Systems and Control](https://www.tudelft.nl/me/over/afdelingen/delft-center-for-systems-and-control) under the joint supervision of [Peyman Mohajerin Esfahani](https://mohajerinesfahani.github.io/) and [Sergio Grammatico](https://sites.google.com/site/grammaticosergio/) since 2023. I completed an MS(by Research) degree in electrical engineering from [IIT Kharagpur](https://www.iitkgp.ac.in/), India, under the joint supervision of [Ashish R. Hota](https://facweb.iitkgp.ac.in/~ahota/index.html) and [Prabodh Bajpai](https://home.iitk.ac.in/~pbajpai/) in 2023. Before that, I did my B.Tech in electrical engineering from [Jalpaiguri Government Engineering College](https://jgec.ac.in/) in 2019. 
 
-Getting started
+Research interests
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Although I hardly understand how to choose a meaningful research direction, I found myself attached to the following areas. 
+1. Sequential decision-making in static and dynamic environments (e.g., Model predictive control, Multi-armed bandits, Online learning, Reinforcement learning, etc.)
+2. Inverse game theory
+3. Applications to real-world complex systems like modern power systems, electric vehicle charging infrastructure, etc. 
 
 Site-wide configuration
 ------
