@@ -14,7 +14,7 @@ I am fortunate to pursue a PhD at [Delft Center for Systems and Control](https:/
 
 Research interests
 ======
-Although I hardly understand how to choose a meaningful research direction, I found myself attached to the following areas. 
+Although I hardly understand how to commit to a meaningful research direction, I found myself attached to the following areas. 
 1. Sequential decision-making in static and dynamic environments (e.g., Model predictive control, Multi-armed bandits, Online learning, Reinforcement learning, etc.)
 2. Inverse game theory
 3. Applications to real-world complex systems like modern power systems, electric vehicle charging infrastructure, etc. 
