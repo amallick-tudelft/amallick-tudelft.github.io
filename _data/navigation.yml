@@ -9,8 +9,6 @@
 
 # main links
 main:
-  - title: "Arghya"
-    url: /
     
   - title: "Publications"
     url: /publications/
