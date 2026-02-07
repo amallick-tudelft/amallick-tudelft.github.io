@@ -8,10 +8,17 @@ author_profile: true
 ## Key Courses Taken
 
 ### LNMB
-- **Non-cooperative Games, Algorithmic Mechanism Design, Advanced Topics in Operation Research**
+- *Non-cooperative Games*
+- *Algorithmic Mechanism Design*
+- *Advanced Topics in Operation Research*
 
 ### IIT Kharagpur
-- **Control Theory, Convex Optimization, Probability and Random Processes for Signals and Systems, Model Predictive Control, Power System Dynamics and Control, Renewable and Distributed Energy Systems**
+- *Control Theory*
+-  *Convex Optimization*
+-  *Probability and Random Processes for Signals and Systems*
+-  *Model Predictive Control*
+-  *Power System Dynamics and Control*
+- *Renewable and Distributed Energy Systems*
 
 ---
 
