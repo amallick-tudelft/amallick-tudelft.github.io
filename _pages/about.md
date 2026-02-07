@@ -19,7 +19,7 @@ redirect_from:
   right: 0%;  /* Shift left to show more of the image */
   width: 45%;  /* Increased width to show full image */
   height: 100vh;
-  background-image: url('/images/apj_2.png');
+  background-image: url('/images/apj_3.png');
   background-size: cover;  /* Changed from 'cover' to 'contain' to show full image */
   background-position: center;  /* Align to the right side */
   background-repeat: no-repeat;
