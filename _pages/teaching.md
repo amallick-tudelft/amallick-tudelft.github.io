@@ -10,7 +10,7 @@ author_profile: true
 ### [Landelijk Netwerk Mathematische Besliskunde (LNMB)](https://www.lnmb.nl/pages/courses/phdcourses/)
 - *Non-cooperative Games*
 - *Algorithmic Mechanism Design*
-- *Advanced Topics in Operation Research*
+- *Advanced Topics in Stochastic Operation Research*
 
 ### IIT Kharagpur
 - *Control Theory*
