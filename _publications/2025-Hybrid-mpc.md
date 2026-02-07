@@ -4,7 +4,7 @@ collection: publications
 category: key-articles
 permalink: /publication/2025-Hybrid-mpc
 date: 2025-07-01
-venue: 'EEE Transactions on Industrial Electronics'
+venue: 'IEEE Transactions on Industrial Electronics'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10791340'
 ---
 
