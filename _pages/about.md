@@ -20,8 +20,8 @@ redirect_from:
   width: 45%;  /* Increased width to show full image */
   height: 100vh;
   background-image: url('/images/apj.png');
-  background-size: contain;  /* Changed from 'cover' to 'contain' to show full image */
-  background-position: center right;  /* Align to the right side */
+  background-size: cover;  /* Changed from 'cover' to 'contain' to show full image */
+  background-position: center;  /* Align to the right side */
   background-repeat: no-repeat;
   opacity: 0.25;  /* Increased opacity (was 0.12) */
   z-index: -1;
