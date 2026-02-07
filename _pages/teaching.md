@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Key Courses Taken
+## Key Courses 
 
 ### [Landelijk Netwerk Mathematische Besliskunde (LNMB)](https://www.lnmb.nl/pages/courses/phdcourses/)
 - *Non-cooperative Games*
