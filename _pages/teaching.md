@@ -7,7 +7,7 @@ author_profile: true
 
 ## Key Courses Taken
 
-### LNMB
+### [LNMB](https://www.lnmb.nl/pages/courses/phdcourses/)
 - *Non-cooperative Games*
 - *Algorithmic Mechanism Design*
 - *Advanced Topics in Operation Research*
