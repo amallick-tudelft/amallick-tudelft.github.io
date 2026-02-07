@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I occasionally conduct research in the broad area of sequential decision-making and, at other times, teach myself, supervise students, manage projects, assist with courses, play chess, and roam the world.  
+I occasionally conduct research in the broad area of sequential decision-making and, at other times, teach myself, supervise students, manage projects, assist in technical courses, play chess, and roam the world.  
 
 Brief bio
 ======
