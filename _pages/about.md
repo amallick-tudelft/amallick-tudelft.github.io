@@ -16,14 +16,14 @@ redirect_from:
   content: "";
   position: fixed;
   top: 0;
-  right: -10%;  /* Shift left to show more of the image */
+  right: 0%;  /* Shift left to show more of the image */
   width: 45%;  /* Increased width to show full image */
   height: 100vh;
-  background-image: url('/images/apj.png');
+  background-image: url('/images/apj_2.png');
   background-size: cover;  /* Changed from 'cover' to 'contain' to show full image */
   background-position: center;  /* Align to the right side */
   background-repeat: no-repeat;
-  opacity: 0.25;  /* Increased opacity (was 0.12) */
+  opacity: 0.2;  /* Increased opacity (was 0.12) */
   z-index: -1;
   pointer-events: none;
 }
