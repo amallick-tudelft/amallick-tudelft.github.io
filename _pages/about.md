@@ -33,6 +33,7 @@ redirect_from:
     opacity: 0.15;  /* Slightly higher for dark mode */
   }
 }
+
 @media (max-width: 968px) {
   .page__content::before {
     display: none;
