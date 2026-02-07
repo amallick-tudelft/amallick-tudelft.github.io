@@ -1,11 +1,39 @@
 ---
+layout: archive
 permalink: /
-title: "Welcome to my digital home! "
+title: "About Me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
+
+<style>
+.page__content {
+  position: relative;
+}
+
+.page__content::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;  /* Adjust width of background area */
+  height: 100vh;
+  background-image: url('/images/background-photo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.15;  /* Adjust transparency (0.1 = very faint, 1 = solid) */
+  z-index: -1;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .page__content::before {
+    width: 100%;
+    opacity: 0.08;
+  }
+}
+</style>
+
 I occasionally conduct research in the broad area of sequential decision-making and, at other times, teach myself, supervise students, manage projects, assist in technical courses, play chess, and roam the world.  
 
 Brief bio
