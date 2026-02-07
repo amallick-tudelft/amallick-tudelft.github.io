@@ -12,11 +12,11 @@ This article proposes a hybrid Model Predictive Control (MPC) framework for DC m
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
   <div>
-    <img src="/images/publications/exp_topology.pdf" alt="Figure 1" style="width: 100%; border: 1px solid #ddd; border-radius: 4px;">
+    <img src="/images/publications/exp_topology.jpg" alt="Figure 1" style="width: 100%; border: 1px solid #ddd; border-radius: 4px;">
     <p style="font-size: 12px; color: #666; text-align: center; margin-top: 5px; font-style: italic;">Figure 1: Experimental setup of five-port DC-DC converter.</p>
   </div>
   <div>
-    <img src="/images/publications/extra_result.pdf" alt="Figure 2" style="width: 100%; border: 1px solid #ddd; border-radius: 4px;">
+    <img src="/images/publications/extra_result.jpg" alt="Figure 2" style="width: 100%; border: 1px solid #ddd; border-radius: 4px;">
     <p style="font-size: 12px; color: #666; text-align: center; margin-top: 5px; font-style: italic;">Figure 2: Current profiles of PV, battery, fuel cell and supercapacitor bank (top), load bus voltage and load current profile (bottom)</p>
   </div>
 </div>
