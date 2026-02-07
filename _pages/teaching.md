@@ -5,29 +5,26 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Teaching Experience
+## Key Courses Taken
 
-### TU Delft
-- **Course Name** (Year): Brief description of your role
-- **Course Name** (Year): Brief description of your role
+### LNMB
+- **Non-cooperative Games, Algorithmic Mechanism Design, Advanced Topics in Operation Research**
 
 ### IIT Kharagpur
-- **Course Name** (Year): Brief description
+- **Control Theory, Convex Optimization, Probability and Random Processes for Signals and Systems, Model Predictive Control, Power System Dynamics and Control, Renewable and Distributed Energy Systems**
 
 ---
 
 ## Student Supervision
 
 ### Current Students
-- **Student Name** - MSc Thesis on [Topic]
-- **Student Name** - Research Internship on [Topic]
+- **Federica Fenoglio Gaddo** - MSc Thesis on [Online Learning]
 
 ### Past Students
-- **Student Name** (Year) - [Topic/Title]
-- **Student Name** (Year) - [Topic/Title]
+- **Thomas Van Os** (2025) - MSc Thesis on [Deep Reinforcement Learning for Battery Arbitrage in the Continuous Intraday Market]
 
 ---
 
 ## Teaching Assistant Roles
 
-List any courses where you were a TA...
+Digital Control (2025), Model Predictive Conrol(2026)
