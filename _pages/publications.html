@@ -7,18 +7,156 @@ author_profile: true
 
 <div class="wordwrap">The full list of articles is on <a href="https://scholar.google.com/citations?hl=en&user=QWXAsyYAAAAJ">my Google Scholar profile</a>.</div>
 
+<style>
+.publication-item {
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.publication-header {
+  margin-bottom: 15px;
+}
+
+.publication-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.publication-venue {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.publication-content {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.publication-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.publication-figure {
+  flex: 0 0 350px;
+  max-width: 350px;
+}
+
+.publication-figure img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.publication-links {
+  margin-top: 10px;
+}
+
+.publication-links a {
+  margin-right: 15px;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.publication-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .publication-content {
+    flex-direction: column;
+  }
+  .publication-figure {
+    flex: 0 0 350px;
+    max-width: 350px;
+  }
+}
+</style>
+
 {% include base_path %}
 
 <h2>Preprints</h2><hr />
 {% for post in site.publications reversed %}
   {% if post.category == "preprints" %}
-    {% include archive-single.html %}
+    <div class="publication-item">
+      <div class="publication-header">
+        <div class="publication-title">{{ post.title }}</div>
+        <div class="publication-venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</div>
+      </div>
+      
+      <div class="publication-content">
+        <div class="publication-text">
+          <p>{{ post.excerpt }}</p>
+          {{ post.content }}
+          
+          <div class="publication-links">
+            {% if post.paperurl %}
+              <a href="{{ post.paperurl }}" target="_blank">[Paper]</a>
+            {% endif %}
+            {% if post.codeurl %}
+              <a href="{{ post.codeurl }}" target="_blank">[Code]</a>
+            {% endif %}
+            {% if post.slidesurl %}
+              <a href="{{ post.slidesurl }}" target="_blank">[Slides]</a>
+            {% endif %}
+          </div>
+        </div>
+        
+        {% if post.image %}
+        <div class="publication-figure">
+          <img src="{{ post.image }}" alt="{{ post.title }}">
+          {% if post.image_caption %}
+            <p style="font-size: 12px; color: #666; margin-top: 5px;">{{ post.image_caption }}</p>
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
   {% endif %}
 {% endfor %}
 
 <h2>Key Research Articles</h2><hr />
 {% for post in site.publications reversed %}
   {% if post.category == "key-articles" %}
-    {% include archive-single.html %}
+    <div class="publication-item">
+      <div class="publication-header">
+        <div class="publication-title">{{ post.title }}</div>
+        <div class="publication-venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</div>
+      </div>
+      
+      <div class="publication-content">
+        <div class="publication-text">
+          <p>{{ post.excerpt }}</p>
+          {{ post.content }}
+          
+          <div class="publication-links">
+            {% if post.paperurl %}
+              <a href="{{ post.paperurl }}" target="_blank">[Paper]</a>
+            {% endif %}
+            {% if post.codeurl %}
+              <a href="{{ post.codeurl }}" target="_blank">[Code]</a>
+            {% endif %}
+            {% if post.slidesurl %}
+              <a href="{{ post.slidesurl }}" target="_blank">[Slides]</a>
+            {% endif %}
+          </div>
+        </div>
+        
+        {% if post.image %}
+        <div class="publication-figure">
+          <img src="{{ post.image }}" alt="{{ post.title }}">
+          {% if post.image_caption %}
+            <p style="font-size: 12px; color: #666; margin-top: 5px;">{{ post.image_caption }}</p>
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
   {% endif %}
 {% endfor %}
