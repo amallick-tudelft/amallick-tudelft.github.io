@@ -36,6 +36,55 @@ author_profile: true
   gap: 30px;
   align-items: flex-start;
 }
+<style>
+.publication-item {
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.publication-header {
+  margin-bottom: 15px;
+}
+
+.publication-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+/* ADD THIS NEW SECTION FOR NIGHT MODE */
+@media (prefers-color-scheme: dark) {
+  .publication-title {
+    color: #e8e8e8;  /* Light color for dark mode */
+  }
+  
+  .publication-venue {
+    color: #b0b0b0;  /* Lighter gray for venue in dark mode */
+  }
+  
+  .publication-item {
+    border-bottom: 1px solid #444;  /* Darker border */
+  }
+  
+  .figure-caption {
+    color: #aaa;  /* Lighter caption text */
+  }
+  
+  .publication-figure-item img {
+    border: 1px solid #555;  /* Darker image border */
+  }
+}
+
+.publication-venue {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* ... rest of your CSS ... */
+</style>
 
 .publication-text {
   flex: 1;
