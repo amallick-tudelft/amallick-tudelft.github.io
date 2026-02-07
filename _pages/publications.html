@@ -36,53 +36,6 @@ author_profile: true
   gap: 30px;
   align-items: flex-start;
 }
-<style>
-.publication-item {
-  margin-bottom: 40px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #e0e0e0;
-}
-
-.publication-header {
-  margin-bottom: 15px;
-}
-
-.publication-title {
-  font-size: 18px;
-  font-weight: bold;
-  color: #2c3e50;
-  margin-bottom: 5px;
-}
-
-/* ADD THIS NEW SECTION FOR NIGHT MODE */
-@media (prefers-color-scheme: dark) {
-  .publication-title {
-    color: #e8e8e8;  /* Light color for dark mode */
-  }
-  
-  .publication-venue {
-    color: #b0b0b0;  /* Lighter gray for venue in dark mode */
-  }
-  
-  .publication-item {
-    border-bottom: 1px solid #444;  /* Darker border */
-  }
-  
-  .figure-caption {
-    color: #aaa;  /* Lighter caption text */
-  }
-  
-  .publication-figure-item img {
-    border: 1px solid #555;  /* Darker image border */
-  }
-}
-
-.publication-venue {
-  font-style: italic;
-  color: #666;
-  margin-bottom: 10px;
-}
-
 
 .publication-text {
   flex: 1;
@@ -101,6 +54,12 @@ author_profile: true
   border-radius: 4px;
 }
 
+.figure-caption {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
 .publication-links {
   margin-top: 10px;
 }
@@ -115,15 +74,38 @@ author_profile: true
   text-decoration: underline;
 }
 
-/* @media (max-width: 768px) {
+/* DARK MODE FIXES */
+@media (prefers-color-scheme: dark) {
+  .publication-title {
+    color: #e8e8e8 !important;  /* Light color for dark mode */
+  }
+  
+  .publication-venue {
+    color: #b0b0b0 !important;  /* Lighter gray for venue in dark mode */
+  }
+  
+  .publication-item {
+    border-bottom: 1px solid #444;  /* Darker border */
+  }
+  
+  .figure-caption {
+    color: #aaa !important;  /* Lighter caption text */
+  }
+  
+  .publication-figure img {
+    border: 1px solid #555;  /* Darker image border */
+  }
+}
+
+@media (max-width: 768px) {
   .publication-content {
     flex-direction: column;
   }
   .publication-figure {
-    flex: 0 0 350px;
-    max-width: 350px;
+    flex: 0 0 auto;
+    max-width: 100%;
   }
-} */
+}
 </style>
 
 {% include base_path %}
@@ -139,7 +121,6 @@ author_profile: true
       
       <div class="publication-content">
         <div class="publication-text">
-          <p>{{ post.excerpt }}</p>
           {{ post.content }}
           
           <div class="publication-links">
@@ -159,7 +140,7 @@ author_profile: true
         <div class="publication-figure">
           <img src="{{ post.image }}" alt="{{ post.title }}">
           {% if post.image_caption %}
-            <p style="font-size: 12px; color: #666; margin-top: 5px;">{{ post.image_caption }}</p>
+            <p class="figure-caption">{{ post.image_caption }}</p>
           {% endif %}
         </div>
         {% endif %}
@@ -179,7 +160,6 @@ author_profile: true
       
       <div class="publication-content">
         <div class="publication-text">
-          <p>{{ post.excerpt }}</p>
           {{ post.content }}
           
           <div class="publication-links">
@@ -199,7 +179,7 @@ author_profile: true
         <div class="publication-figure">
           <img src="{{ post.image }}" alt="{{ post.title }}">
           {% if post.image_caption %}
-            <p style="font-size: 12px; color: #666; margin-top: 5px;">{{ post.image_caption }}</p>
+            <p class="figure-caption">{{ post.image_caption }}</p>
           {% endif %}
         </div>
         {% endif %}
