@@ -51,7 +51,7 @@ I occasionally conduct research in the broad area of sequential decision-making 
   
 ## Research interests
 
-Although I struggle to understand a meaningful research direction, I found myself attached to the following areas:
+Although I struggle to understand a meaningful research direction, I find myself attached to the following areas:
 
 1. Sequential decision-making in static and dynamic environments (e.g., Model predictive control, Multi-armed bandits, Online learning, Reinforcement learning, etc.)
 2. Nash equilibrium prediction (aka Inverse game theory)
