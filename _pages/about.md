@@ -53,7 +53,7 @@ I occasionally conduct research in the broad area of sequential decision-making 
 
 Although I struggle to understand a meaningful research direction, I find myself attached to the following areas:
 
-1. Sequential decision-making in static and dynamic environments (e.g., Model predictive control, Multi-armed bandits, Online learning, Reinforcement learning, etc.)
+1. Sequential decision-making in static and dynamic environments (e.g., Model predictive control, Multi-armed bandits, Online learning, etc.)
 2. Nash equilibrium prediction (aka Inverse game theory)
 3. Applications to real-world complex systems like modern power systems, electric vehicle charging infrastructure, etc.
 
