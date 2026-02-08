@@ -12,10 +12,9 @@ excerpt: 'A mathematical analysis of reel addiction and a proposed solution usin
 
 With the rapid development of learning-based technologies, the reel industry (YouTube, Facebook, Instagram, etc.) has taken the world into the booze of cocaine-like drugs. Even the best minds of a country are regular customers for hours every day. Let us first understand mathematically (in a very non-rigorous way) why reels are so addictive.
 
-### The Mathematical Framework
+## The Mathematical Framework
 
-Consider the average person watching reels as the **Audience**, and there is an **Agent** (the drug lord) who has designed an algorithm $$F(\cdot|H): \mathcal{Z} \to \mathcal{Y}$$, where $$H$$ is history, $$\mathcal{Z}$$ is the set of design parameters, and $$\mathcal{Y}$$ is the set of strategies. 
-
+Consider the average person watching reels as the **Audience**, and there is an **Agent** (the drug lord) who has designed an algorithm $F(\cdot|H): \mathcal{Z} \to \mathcal{Y}$, where $H$ is history, $\mathcal{Z}$ is the set of design parameters, and $\mathcal{Y}$ is the set of strategies.
 Step by step, let us define the sequence of events that take place while watching reels:
 
 ### Event Sequence
