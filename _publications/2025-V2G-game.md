@@ -13,8 +13,7 @@ This paper presents a user-centric Vehicle-to-Grid (V2G) framework utilizing a g
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
   <div>
     <img src="/images/publications/temp_trade_off.jpeg" alt="Figure 1" style="width: 100%; border: 1px solid #ddd; border-radius: 4px;">
-    <p style="font-size: 12px; color: #666; text-align: center; margin-top: 5px; font-style: italic;">Figure 1: Trade-off curve for comparison between charging cost and
-cyclic battery degradation cost while taking part in V2G for different ambient temperatures.</p>
+    <p style="font-size: 12px; color: #666; text-align: center; margin-top: 5px; font-style: italic;">Figure 1: Trade-off curve for comparison between charging cost and cyclic battery degradation cost while taking part in V2G for different ambient temperatures.</p>
   </div>
   <div>
     <img src="/images/publications/charging_profile2.jpeg" alt="Figure 2" style="width: 100%; border: 1px solid #ddd; border-radius: 4px;">
