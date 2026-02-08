@@ -13,7 +13,7 @@ In this article, I propose a peer-review mechanism to provide a better alternati
 
 Let me first define a few notations that I will use later in this article (the reader can directly jump to the methodology section and come back here once required).
 
-Suppose $N$ researchers write an article together and decide to submit it to a journal of their choice.
+Suppose $$N$$ researchers write an article together and decide to submit it to a journal of their choice.
 
 ## Notation
 
@@ -31,7 +31,7 @@ Suppose $N$ researchers write an article together and decide to submit it to a j
 
 7. **Total publications:** $$x_i$$ - total number of articles published by $$i$$ in the same journal.
 
-8. **Historical review score:** $$r'_i$$ - the historical average review score in $$[0,1]$$ received for $$p_i$$ articles of author $$i$$.
+8. **Historical review score:** $$r'_i$$ - the historical average review score in $$[0,1]$$ received for $$p_i$$ articles of author $$i$$. The editors grade the quality of each review submitted by the $$i$$-th author and update $$r'_i$$. 
 
 We define the author's score as:
 
@@ -48,11 +48,11 @@ The following algorithm assigns research articles among the authors who have sub
 **Input:** $$\{v_i, v'_i, a_i, c_i, r'_i\}, \forall i \in [N]$$
 ```
 1:  for i in [N]:
-2:      if $$a_i > a'$$:
-3:          $$c_i = c_i + v_i + v'_i × (x_i / p_i)$$
-4:          if $$c_i ≥ 1$$:
+2:      if a_i > a':
+3:          c_i = c_i + v_i + v'_i × (x_i / p_i)
+4:          if c_i ≥ 1:
 5:              Send one article from similar research area to author i for reviewing
-6:              Set $$c_i = 0$$
+6:              Set c_i = 0
 7:          end if
 8:      end if
 9:  end for
