@@ -74,26 +74,25 @@ author_profile: true
   text-decoration: underline;
 }
 
-/* DARK MODE FIXES */
 @media (prefers-color-scheme: dark) {
   .publication-title {
-    color: #e8e8e8 !important;  /* Light color for dark mode */
+    color: #e8e8e8 !important;
   }
   
   .publication-venue {
-    color: #b0b0b0 !important;  /* Lighter gray for venue in dark mode */
+    color: #b0b0b0 !important;
   }
   
   .publication-item {
-    border-bottom: 1px solid #444;  /* Darker border */
+    border-bottom: 1px solid #444;
   }
   
   .figure-caption {
-    color: #aaa !important;  /* Lighter caption text */
+    color: #aaa !important;
   }
   
   .publication-figure img {
-    border: 1px solid #555;  /* Darker image border */
+    border: 1px solid #555;
   }
 }
 
@@ -108,82 +107,83 @@ author_profile: true
 }
 </style>
 
-{% include base_path %}
+{% assign preprints = site.publications | where: "category", "preprints" | sort: "date" | reverse %}
+{% assign key_articles = site.publications | where: "category", "key-articles" | sort: "date" | reverse %}
 
+{% if preprints.size > 0 %}
 <h2>Preprints</h2><hr />
-{% for post in site.publications reversed %}
-  {% if post.category == "preprints" %}
-    <div class="publication-item">
-      <div class="publication-header">
-        <div class="publication-title">{{ post.title }}</div>
-        <div class="publication-venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</div>
-      </div>
-      
-      <div class="publication-content">
-        <div class="publication-text">
-          {{ post.content }}
-          
-          <div class="publication-links">
-            {% if post.paperurl %}
-              <a href="{{ post.paperurl }}" target="_blank">[Paper]</a>
-            {% endif %}
-            {% if post.codeurl %}
-              <a href="{{ post.codeurl }}" target="_blank">[Code]</a>
-            {% endif %}
-            {% if post.slidesurl %}
-              <a href="{{ post.slidesurl }}" target="_blank">[Slides]</a>
-            {% endif %}
-          </div>
-        </div>
+{% for post in preprints %}
+  <div class="publication-item">
+    <div class="publication-header">
+      <div class="publication-title">{{ post.title }}</div>
+      <div class="publication-venue">{{ post.venue }}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</div>
+    </div>
+    
+    <div class="publication-content">
+      <div class="publication-text">
+        {{ post.content }}
         
-        {% if post.image %}
-        <div class="publication-figure">
-          <img src="{{ post.image }}" alt="{{ post.title }}">
-          {% if post.image_caption %}
-            <p class="figure-caption">{{ post.image_caption }}</p>
+        <div class="publication-links">
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}" target="_blank">[Paper]</a>
+          {% endif %}
+          {% if post.codeurl %}
+            <a href="{{ post.codeurl }}" target="_blank">[Code]</a>
+          {% endif %}
+          {% if post.slidesurl %}
+            <a href="{{ post.slidesurl }}" target="_blank">[Slides]</a>
           {% endif %}
         </div>
+      </div>
+      
+      {% if post.image %}
+      <div class="publication-figure">
+        <img src="{{ post.image }}" alt="{{ post.title }}">
+        {% if post.image_caption %}
+          <p class="figure-caption">{{ post.image_caption }}</p>
         {% endif %}
       </div>
+      {% endif %}
     </div>
-  {% endif %}
+  </div>
 {% endfor %}
+{% endif %}
 
+{% if key_articles.size > 0 %}
 <h2>Key Research Articles</h2><hr />
-{% for post in site.publications reversed %}
-  {% if post.category == "key-articles" %}
-    <div class="publication-item">
-      <div class="publication-header">
-        <div class="publication-title">{{ post.title }}</div>
-        <div class="publication-venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</div>
-      </div>
-      
-      <div class="publication-content">
-        <div class="publication-text">
-          {{ post.content }}
-          
-          <div class="publication-links">
-            {% if post.paperurl %}
-              <a href="{{ post.paperurl }}" target="_blank">[Paper]</a>
-            {% endif %}
-            {% if post.codeurl %}
-              <a href="{{ post.codeurl }}" target="_blank">[Code]</a>
-            {% endif %}
-            {% if post.slidesurl %}
-              <a href="{{ post.slidesurl }}" target="_blank">[Slides]</a>
-            {% endif %}
-          </div>
-        </div>
+{% for post in key_articles %}
+  <div class="publication-item">
+    <div class="publication-header">
+      <div class="publication-title">{{ post.title }}</div>
+      <div class="publication-venue">{{ post.venue }}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</div>
+    </div>
+    
+    <div class="publication-content">
+      <div class="publication-text">
+        {{ post.content }}
         
-        {% if post.image %}
-        <div class="publication-figure">
-          <img src="{{ post.image }}" alt="{{ post.title }}">
-          {% if post.image_caption %}
-            <p class="figure-caption">{{ post.image_caption }}</p>
+        <div class="publication-links">
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}" target="_blank">[Paper]</a>
+          {% endif %}
+          {% if post.codeurl %}
+            <a href="{{ post.codeurl }}" target="_blank">[Code]</a>
+          {% endif %}
+          {% if post.slidesurl %}
+            <a href="{{ post.slidesurl }}" target="_blank">[Slides]</a>
           {% endif %}
         </div>
+      </div>
+      
+      {% if post.image %}
+      <div class="publication-figure">
+        <img src="{{ post.image }}" alt="{{ post.title }}">
+        {% if post.image_caption %}
+          <p class="figure-caption">{{ post.image_caption }}</p>
         {% endif %}
       </div>
+      {% endif %}
     </div>
-  {% endif %}
+  </div>
 {% endfor %}
+{% endif %}
