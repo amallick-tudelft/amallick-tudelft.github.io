@@ -17,21 +17,21 @@ Suppose $N$ researchers write an article together and decide to submit it to a j
 
 ## Notation
 
-1. **Author's score:** $a_i \in \mathbb{R}$ where $i \in [N]$ with $N$ being the total number of authors in a submitted article. This score signifies the expertise level of an academic researcher in a particular research area.
+1. **Author's score:** $$a_i \in \mathbb{R}$$ where $$i \in [N]$$ with $$N$$ being the total number of authors in a submitted article. This score signifies the expertise level of an academic researcher in a particular research area.
 
-2. **Expertise threshold:** $a'$ - A threshold level of expertise of a researcher in a research area as decided by the editorial board of a journal.
+2. **Expertise threshold:** $$a'$$ - A threshold level of expertise of a researcher in a research area as decided by the editorial board of a journal.
 
-3. **Review criterion:** $c_i \in \mathbb{R}$ where $i \in [N]$. It will be used as a criterion for evaluating the author's participation level in the peer review process.
+3. **Review criterion:** $$c_i \in \mathbb{R}$$ where $$i \in [N]$$. It will be used as a criterion for evaluating the author's participation level in the peer review process.
 
-4. **Author's contribution level:** $v_i \in (0,1]$ where $i \in [N]$. This is the level of the author's contribution to creating a research article, and it will be provided by the authors while submitting it to any journal.
+4. **Author's contribution level:** $$v_i \in (0,1]$$ where $$i \in [N]$$. This is the level of the author's contribution to creating a research article, and it will be provided by the authors while submitting it to any journal.
 
-5. **Historical contribution average:** $v'_i$ - the historical average of contribution level for author $i$ to the journal.
+5. **Historical contribution average:** $$v'_i$$ - the historical average of contribution level for author $i$ to the journal.
 
-6. **Total submissions:** $p_i$ - total number of articles submitted by $i$ to a journal.
+6. **Total submissions:** $$p_i$$ - total number of articles submitted by $$i$$ to a journal.
 
-7. **Total publications:** $x_i$ - total number of articles published by $i$ in the same journal.
+7. **Total publications:** $$x_i$$ - total number of articles published by $$i$$ in the same journal.
 
-8. **Historical review score:** $r'_i$ - the historical average review score in $[0,1]$ received for $p_i$ articles of author $i$.
+8. **Historical review score:** $$r'_i$$ - the historical average review score in $$[0,1]$$ received for $$p_i$$ articles of author $$i$$.
 
 We define the author's score as:
 
@@ -45,26 +45,26 @@ The main idea of the Contributory Peer Review (CPR) mechanism is that every auth
 
 The following algorithm assigns research articles among the authors who have submitted their article to a journal.
 
-**Input:** $\{v_i, v'_i, a_i, c_i, r'_i\}, \forall i \in [N]$
+**Input:** $$\{v_i, v'_i, a_i, c_i, r'_i\}, \forall i \in [N]$$
 ```
 1:  for i in [N]:
-2:      if a_i > a':
-3:          c_i = c_i + v_i + v'_i × (x_i / p_i)
-4:          if c_i ≥ 1:
+2:      if $$a_i > a'$$:
+3:          $$c_i = c_i + v_i + v'_i × (x_i / p_i)$$
+4:          if $$c_i ≥ 1$$:
 5:              Send one article from similar research area to author i for reviewing
-6:              Set c_i = 0
+6:              Set $$c_i = 0$$
 7:          end if
 8:      end if
 9:  end for
 ```
 
-**Update:** Update and store $\{v'_i, p_i, a_i, c_i, r'_i\}$.
+**Update:** Update and store $$\{v'_i, p_i, a_i, c_i, r'_i\}$$.
 
 ### Rationale
 
-The rationale of **line 2** in the algorithm is obvious: a novice researcher should not review a paper. The idea behind the update of $c_i$ in **line 3** of the algorithm can be understood in two steps:
+The rationale of **line 2** in the algorithm is obvious: a novice researcher should not review a paper. The idea behind the update of $$c_i$$ in **line 3** of the algorithm can be understood in two steps:
 
-1. **First part:** The level of contribution for author $i$ of the submitted article should be proportionally reflected in his/her level of contribution in the peer review system.
+1. **First part:** The level of contribution for author $$i$$ of the submitted article should be proportionally reflected in his/her level of contribution in the peer review system.
 
 2. **Second part:** The more an author's articles get published in a journal, the more he/she should review other articles.
 
