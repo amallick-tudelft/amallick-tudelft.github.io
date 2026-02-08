@@ -352,7 +352,11 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
+# Enable MathJax for LaTeX rendering
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
