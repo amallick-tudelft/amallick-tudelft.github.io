@@ -6,7 +6,7 @@ tags:
   - academia
   - peer-review
   - research
-excerpt: 'Proposing an equitable framework to assign reviewers based on authors' contribution to the peer review system.'
+excerpt: 'Proposing an equitable framework to assign reviewers based on authors contribution to the peer review system'
 ---
 
 In this article, I propose a peer-review mechanism to provide a better alternative to the existing fragile peer review system in academia. In the following, I provide an equitable framework to assign reviewers of the submitted articles to a journal.
