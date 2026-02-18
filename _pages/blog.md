@@ -10,7 +10,7 @@ body {
   position: relative;
 }
 
-body::after {
+body::before {
   content: "";
   position: fixed;
   top: 50%;
@@ -28,7 +28,7 @@ body::after {
 }
 
 @media (prefers-color-scheme: dark) {
-  body::after {
+  body::before {
     opacity: 0.08;
   }
 }
