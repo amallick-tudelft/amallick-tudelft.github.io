@@ -53,14 +53,5 @@ body::after {
 {% else %}
   <p>No blog posts yet. Check back soon!</p>
 {% endif %}
-```
 
-**Key change:** Using `body::after` instead of `.page__content::before` - this is more reliable across different themes.
 
----
-
-## Step 5: Test the Image Directly
-
-Visit this URL directly in your browser:
-```
-https://amallick-tudelft.github.io/images/Netaji.png
