@@ -6,11 +6,11 @@ author_profile: true
 ---
 
 <style>
-.page__content {
+body {
   position: relative;
 }
 
-.page__content::before {
+body::after {
   content: "";
   position: fixed;
   top: 50%;
@@ -22,19 +22,19 @@ author_profile: true
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: 0.12;  /* ADJUST THIS: 0.05 (very faint) to 0.3 (more visible) */
+  opacity: 0.15;
   z-index: -1;
   pointer-events: none;
 }
 
 @media (prefers-color-scheme: dark) {
-  .page__content::before {
-    opacity: 0.05;  /* ADJUST THIS for dark mode */
+  body::after {
+    opacity: 0.08;
   }
 }
 
 @media (max-width: 968px) {
-  .page__content::before {
+  body::after {
     width: 80%;
     height: 50%;
     opacity: 0.05;
@@ -53,3 +53,14 @@ author_profile: true
 {% else %}
   <p>No blog posts yet. Check back soon!</p>
 {% endif %}
+```
+
+**Key change:** Using `body::after` instead of `.page__content::before` - this is more reliable across different themes.
+
+---
+
+## Step 5: Test the Image Directly
+
+Visit this URL directly in your browser:
+```
+https://amallick-tudelft.github.io/images/Netaji.png
