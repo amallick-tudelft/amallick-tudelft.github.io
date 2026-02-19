@@ -57,7 +57,7 @@ Although I struggle to understand a meaningful research direction, I find myself
 2. Nash equilibrium prediction (aka Inverse game theory)
 3. Applications to real-world complex systems like modern power systems, electric vehicle charging infrastructure, etc.
 
-## Breaking news!
+## Recent news!
 
 1. **July 2025**, an article ["A User-centric Game for Balancing V2G Benefits with Battery Degradation of Electric Vehicles"](https://ieeexplore.ieee.org/document/11104074) accepted in ***IEEE Transactions on Transportation Electrification***
 
