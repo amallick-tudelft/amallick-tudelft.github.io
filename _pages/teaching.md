@@ -34,4 +34,4 @@ author_profile: true
 
 ## Teaching Assistant Roles
 
-Digital Control (2025), Model Predictive Conrol(2026)
+Digital Control (2025), Model Predictive Control (2026)
