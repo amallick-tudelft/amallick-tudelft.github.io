@@ -10,7 +10,7 @@ author_profile: true
 ### [Landelijk Netwerk Mathematische Besliskunde (LNMB)](https://www.lnmb.nl/pages/courses/phdcourses/)
 - *Non-cooperative Games*
 - *Algorithmic Mechanism Design*
-- *Advanced Topics in Stochastic Operation Research*
+- *Advanced Topics in Stochastic Operations Research*
 
 ### IIT Kharagpur
 - *Control Theory*
@@ -21,7 +21,7 @@ author_profile: true
 - *Renewable and Distributed Energy Systems*
 
 ### Worshop at [SOCN](https://sites.uclouvain.be/socn/drupal/socn/node/423#overlay-context=/socn/)
-- *Learning Theory from First Principles by Francis Bach
+- *Learning Theory from First Principles by Francis Bach*
 
 ---
 
