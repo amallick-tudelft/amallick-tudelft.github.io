@@ -20,7 +20,7 @@ author_profile: true
 -  *Power System Dynamics and Control*
 - *Renewable and Distributed Energy Systems*
 
-### Worshop at [SOCN](https://sites.uclouvain.be/socn/drupal/socn/node/423#overlay-context=/socn/)
+### Workshop at [SOCN](https://sites.uclouvain.be/socn/drupal/socn/node/423#overlay-context=/socn/)
 - *Learning Theory from First Principles by Francis Bach*
 
 ---
