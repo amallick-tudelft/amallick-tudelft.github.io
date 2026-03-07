@@ -16,7 +16,7 @@ Many of us live multiple lives at multiple places with the same identities. We w
 **Our mind is nothing but a reflection of our past actions and our life is the mirror of our mind.**
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/images/blog/infinite-shades.jpg" alt="Infinite Shades of Mind" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  <img src="/images/infinite-shades.png" alt="Infinite Shades of Mind" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
   <p style="font-size: 13px; color: #666; margin-top: 10px; font-style: italic;">Figure: The interplay between human consciousness and artificial intelligence</p>
 </div>
 
