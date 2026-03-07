@@ -1,7 +1,7 @@
 ---
 title: 'Infinite Shades of Mind: The Battle Between Human Feelings and AI'
-date: 2025-02-08
-permalink: /posts/2025/02/infinite-shades-of-mind/
+date: 2026-02-08
+permalink: /posts/2026/02/infinite-shades-of-mind/
 tags:
   - philosophy
   - artificial-intelligence
@@ -52,6 +52,6 @@ The unfortunate thing is that no one came up with another powerful model that ca
 
 **Citation:**
 ```
-Mallick, A. (2025). Infinite Shades of Mind: The Battle Between Human Feelings and AI. 
-Retrieved from https://amallick-tudelft.github.io/posts/2025/02/infinite-shades-of-mind/
+Mallick, A. (2026). Infinite Shades of Mind: The Battle Between Human Feelings and AI. 
+Retrieved from https://amallick-tudelft.github.io/posts/2026/02/infinite-shades-of-mind/
 ```
