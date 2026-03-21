@@ -55,7 +55,7 @@ Although I struggle to understand a meaningful research direction, I find myself
 
 1. Sequential decision-making in static and dynamic environments (e.g., Model predictive control, Multi-armed bandits, Online learning, etc.)
 2. Nash equilibrium prediction (aka Inverse game theory)
-3. Applications to real-world complex systems like modern power systems, electric vehicle charging infrastructure, etc.
+3. Applications to real-world complex systems like modern power systems, smart charging of electric vehicles, computational economics, etc.
 
 ## Recent news!
 
