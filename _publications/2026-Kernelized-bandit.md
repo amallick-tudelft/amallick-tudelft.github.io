@@ -1,5 +1,5 @@
 ---
-title: "Kernelized Multi-armed Bandit for Dynamic Contract Design Problem"
+title: "Adaptive Incentive Design in Dynamic Principal-Agent Problem via Kernelized Bandits"
 collection: publications
 category: preprints
 permalink: /publication/2026-Kernelized-bandit
