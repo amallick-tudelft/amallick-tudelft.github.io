@@ -68,3 +68,5 @@ Although I struggle to understand a meaningful research direction, I find myself
 4. **May 2024**, an article ["Distributed Coordination of Multi-Microgrids in Active Distribution Networks for Provisioning Ancillary Services"](https://ieeexplore.ieee.org/abstract/document/10559492) accepted in ***IEEE Systems Journal***
 
 5. **December 2023**, received ***12th Grid India Power System Award*** by [**Grid-India**](https://www.linkedin.com/company/grid-controller-of-india-limited/posts/?feedView=all) for outstanding master's degree thesis in the area of power systems
+   
+7. **July 2026**, an article "Inverse Dynamic Game Theory via Robust Receding Horizon Learning" accepted in ***65th IEEE Conference on Decision and Control (CDC)***, see you in Hawai, USA.
