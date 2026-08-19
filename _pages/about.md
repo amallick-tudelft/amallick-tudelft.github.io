@@ -59,16 +59,17 @@ Although I struggle to understand a meaningful research direction, I find myself
 
 ## Recent news!
 
-1. **July 2026**, an article "Inverse Dynamic Game Theory via Robust Receding Horizon Learning" accepted in ***65th IEEE Conference on Decision and Control (CDC)***, see you in Hawai, USA.
+1. **August 2026**, new article ["Adaptive Incentive Design in Dynamic Principal-Agent Problem via Kernelized Bandits"](https://arxiv.org/pdf/2608.17614) submitted for possible publication.
+
+2. **July 2026**, an article "Inverse Dynamic Game Theory via Robust Receding Horizon Learning" accepted in ***65th IEEE Conference on Decision and Control (CDC)***, see you in Hawai, USA.
    
-2. **July 2025**, an article ["A User-centric Game for Balancing V2G Benefits with Battery Degradation of Electric Vehicles"](https://ieeexplore.ieee.org/document/11104074) accepted in ***IEEE Transactions on Transportation Electrification***
+3. **July 2025**, an article ["A User-centric Game for Balancing V2G Benefits with Battery Degradation of Electric Vehicles"](https://ieeexplore.ieee.org/document/11104074) accepted in ***IEEE Transactions on Transportation Electrification***
 
-3. **May 2025**, an article ["User-centric Vehicle-to-Grid Optimization with an Input Convex Neural Network-based Battery Degradation Model"](https://ieeexplore.ieee.org/document/11163818) accepted in ***IEEE International Conference on Automation Science and Engineering (CASE), 2025***
+4. **May 2025**, an article ["User-centric Vehicle-to-Grid Optimization with an Input Convex Neural Network-based Battery Degradation Model"](https://ieeexplore.ieee.org/document/11163818) accepted in ***IEEE International Conference on Automation Science and Engineering (CASE), 2025***
 
-4. **November 2024**, an article ["Hybrid Model Predictive Control Framework for Efficient Operation of a Five-Port Converter Interfaced DC Microgrid"](https://ieeexplore.ieee.org/document/10791340) accepted in ***IEEE Transactions on Industrial Electronics***
+5. **November 2024**, an article ["Hybrid Model Predictive Control Framework for Efficient Operation of a Five-Port Converter Interfaced DC Microgrid"](https://ieeexplore.ieee.org/document/10791340) accepted in ***IEEE Transactions on Industrial Electronics***
 
-5. **May 2024**, an article ["Distributed Coordination of Multi-Microgrids in Active Distribution Networks for Provisioning Ancillary Services"](https://ieeexplore.ieee.org/abstract/document/10559492) accepted in ***IEEE Systems Journal***
+6. **May 2024**, an article ["Distributed Coordination of Multi-Microgrids in Active Distribution Networks for Provisioning Ancillary Services"](https://ieeexplore.ieee.org/abstract/document/10559492) accepted in ***IEEE Systems Journal***
 
-6. **December 2023**, received ***12th Grid India Power System Award*** by [**Grid-India**](https://www.linkedin.com/company/grid-controller-of-india-limited/posts/?feedView=all) for outstanding master's degree thesis in the area of power systems
    
 
