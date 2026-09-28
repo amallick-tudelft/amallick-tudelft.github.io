@@ -61,7 +61,7 @@ Although I struggle to understand a meaningful research direction, I find myself
 
 1. **August 2026**, new article ["Adaptive Incentive Design in Dynamic Principal-Agent Problem via Kernelized Bandits"](https://arxiv.org/pdf/2608.17614) submitted for possible publication.
 
-2. **July 2026**, an article "Inverse Dynamic Game Theory via Robust Receding Horizon Learning" accepted in ***65th IEEE Conference on Decision and Control (CDC)***, see you in Hawai, USA.
+2. **July 2026**, an article "Inverse Dynamic Game Theory via Robust Receding Horizon Learning" accepted in ***65th IEEE Conference on Decision and Control (CDC)***, see you in Hawaii, USA.
    
 3. **July 2025**, an article ["A User-centric Game for Balancing V2G Benefits with Battery Degradation of Electric Vehicles"](https://ieeexplore.ieee.org/document/11104074) accepted in ***IEEE Transactions on Transportation Electrification***
 
