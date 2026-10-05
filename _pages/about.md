@@ -59,17 +59,19 @@ Although I struggle to understand a meaningful research direction, I find myself
 
 ## Recent news!
 
-1. **August 2026**, new article ["Adaptive Incentive Design in Dynamic Principal-Agent Problem via Kernelized Bandits"](https://arxiv.org/pdf/2608.17614) submitted for possible publication.
-
-2. **July 2026**, an article "Inverse Dynamic Game Theory via Robust Receding Horizon Learning" accepted in ***65th IEEE Conference on Decision and Control (CDC)***, see you in Hawaii, USA.
+1. **October 2026**, new article ["Learning in Inverse Games: Tractable Training with Probabilistic Guarantees"](https://arxiv.org/pdf/2610.03481) submitted for possible publication.
    
-3. **July 2025**, an article ["A User-centric Game for Balancing V2G Benefits with Battery Degradation of Electric Vehicles"](https://ieeexplore.ieee.org/document/11104074) accepted in ***IEEE Transactions on Transportation Electrification***
+2. **August 2026**, new article ["Adaptive Incentive Design in Dynamic Principal-Agent Problem via Kernelized Bandits"](https://arxiv.org/pdf/2608.17614) submitted for possible publication.
 
-4. **May 2025**, an article ["User-centric Vehicle-to-Grid Optimization with an Input Convex Neural Network-based Battery Degradation Model"](https://ieeexplore.ieee.org/document/11163818) accepted in ***IEEE International Conference on Automation Science and Engineering (CASE), 2025***
+3. **July 2026**, an article "Inverse Dynamic Game Theory via Robust Receding Horizon Learning" accepted in ***65th IEEE Conference on Decision and Control (CDC)***, see you in Hawaii, USA.
+   
+4. **July 2025**, an article ["A User-centric Game for Balancing V2G Benefits with Battery Degradation of Electric Vehicles"](https://ieeexplore.ieee.org/document/11104074) accepted in ***IEEE Transactions on Transportation Electrification***
 
-5. **November 2024**, an article ["Hybrid Model Predictive Control Framework for Efficient Operation of a Five-Port Converter Interfaced DC Microgrid"](https://ieeexplore.ieee.org/document/10791340) accepted in ***IEEE Transactions on Industrial Electronics***
+5. **May 2025**, an article ["User-centric Vehicle-to-Grid Optimization with an Input Convex Neural Network-based Battery Degradation Model"](https://ieeexplore.ieee.org/document/11163818) accepted in ***IEEE International Conference on Automation Science and Engineering (CASE), 2025***
 
-6. **May 2024**, an article ["Distributed Coordination of Multi-Microgrids in Active Distribution Networks for Provisioning Ancillary Services"](https://ieeexplore.ieee.org/abstract/document/10559492) accepted in ***IEEE Systems Journal***
+6. **November 2024**, an article ["Hybrid Model Predictive Control Framework for Efficient Operation of a Five-Port Converter Interfaced DC Microgrid"](https://ieeexplore.ieee.org/document/10791340) accepted in ***IEEE Transactions on Industrial Electronics***
+
+7. **May 2024**, an article ["Distributed Coordination of Multi-Microgrids in Active Distribution Networks for Provisioning Ancillary Services"](https://ieeexplore.ieee.org/abstract/document/10559492) accepted in ***IEEE Systems Journal***
 
    
 
